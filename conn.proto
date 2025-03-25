@@ -1,0 +1,11 @@
+syntax="proto3";
+
+package coolwire;
+import "google/protobuf/struct.proto";
+
+option go_package = "coolwire";
+
+message Query{
+    string query = 1;
+    repeated google.protobuf.Struct.Value params = 2;
+}
