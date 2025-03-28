@@ -1,4 +1,4 @@
-module github.com/rushikeshg25/wire
+module github.com/rushikeshg25/cool-wire
 
 go 1.23.5
 

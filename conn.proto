@@ -3,7 +3,7 @@ syntax="proto3";
 package coolwire;
 import "google/protobuf/struct.proto";
 
-option go_package = "./";
+option go_package = "./wire";
 
 message Query{
     string query = 1;
