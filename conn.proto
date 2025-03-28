@@ -13,3 +13,7 @@ message Query{
 message Response{
     string response = 1;
 }
+
+service WireService{
+    rpc SendQuery(Query) returns (Response);
+}
